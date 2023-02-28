@@ -23,6 +23,8 @@ int binary_tree_is_leaf(const binary_tree_t *node)
 */
 int binary_tree_is_full(const binary_tree_t *tree)
 {
+	if (tree == NULL)
+		return (0);
 
 	if (tree->left && tree->right)
 		return (binary_tree_is_leaf(tree->left) && binary_tree_is_leaf(tree->right));
