@@ -62,5 +62,8 @@ bst_t *bst_search(const bst_t *tree, int value);
 bst_t *r_case(bst_t *node, bst_t *root);
 bst_t *r_l_case(bst_t *node, bst_t *root);
 bst_t *bst_remove(bst_t *root, int value);
-
+int binary_tree_is_avl(const binary_tree_t *tree);
+int check_is_bst(const binary_tree_t *tree);
+int check_parent(const binary_tree_t *tree);
+size_t recursive_height(const binary_tree_t *tree);
 #endif /* _BINARY_TREES_H_ */
