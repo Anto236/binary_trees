@@ -80,4 +80,5 @@ int tree_is_complete(const binary_tree_t *tree, int i, int cnodes);
 int binary_tree_is_heap(const binary_tree_t *tree);
 void swap(heap_t **arg_node, heap_t **arg_child);
 heap_t *heap_insert(heap_t **root, int value);
+heap_t *array_to_heap(int *array, size_t size);
 #endif /* _BINARY_TREES_H_ */
