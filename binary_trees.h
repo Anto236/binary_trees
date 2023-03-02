@@ -70,4 +70,8 @@ void check_balance(avl_t **node, int value);
 avl_t *avl_in(avl_t **tree, int value);
 avl_t *avl_insert(avl_t **tree, int value);
 avl_t *array_to_avl(int *array, size_t size);
+avl_t *inorder_sucessor(avl_t *tree, int mode);
+void change_node(avl_t **arg_tree, avl_t **arg_node);
+avl_t *avl_search_remove(avl_t **tree, int value);
+avl_t *avl_remove(avl_t *root, int value);
 #endif /* _BINARY_TREES_H_ */
