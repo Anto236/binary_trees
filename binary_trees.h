@@ -76,4 +76,6 @@ avl_t *avl_search_remove(avl_t **tree, int value);
 avl_t *avl_remove(avl_t *root, int value);
 void create_tree(avl_t **node, int *array, size_t size, int mode);
 avl_t *sorted_array_to_avl(int *array, size_t size);
+int tree_is_complete(const binary_tree_t *tree, int i, int cnodes);
+int binary_tree_is_heap(const binary_tree_t *tree);
 #endif /* _BINARY_TREES_H_ */
