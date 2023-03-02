@@ -66,4 +66,7 @@ int binary_tree_is_avl(const binary_tree_t *tree);
 int check_is_bst(const binary_tree_t *tree);
 int check_parent(const binary_tree_t *tree);
 size_t recursive_height(const binary_tree_t *tree);
+void check_balance(avl_t **node, int value);
+avl_t *avl_in(avl_t **tree, int value);
+avl_t *avl_insert(avl_t **tree, int value);
 #endif /* _BINARY_TREES_H_ */
