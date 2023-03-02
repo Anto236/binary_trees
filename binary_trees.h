@@ -69,4 +69,5 @@ size_t recursive_height(const binary_tree_t *tree);
 void check_balance(avl_t **node, int value);
 avl_t *avl_in(avl_t **tree, int value);
 avl_t *avl_insert(avl_t **tree, int value);
+avl_t *array_to_avl(int *array, size_t size);
 #endif /* _BINARY_TREES_H_ */
